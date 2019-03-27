@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>TU Dortmund X Sprachzentrum - Test</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/small-business.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+</head>
+
+<body>
+    <div hidden="hidden">
+        \(
+        \newcommand{\eq}[1]{\begin{array}{rrl@{\quad}l}#1\end{array}}
+        \newcommand{\D}{\displaystyle}
+        \newcommand{\LR}{\Leftrightarrow}
+        \newcommand{\m}[1]{\begin{pmatrix}#1\end{pmatrix}}
+        \)
+        \(
+        \newcommand{\tb}[1]{{\color{blue}{#1}}}
+        \newcommand{\tr}[1]{{\color{red}{#1}}}
+        \newcommand{\tg}[1]{{\color{green}{#1}}}
+        \newcommand{\N}{{\mathbb N }}
+        \newcommand{\R}{{\mathbb R }}
+        \newcommand{\Z}{{\mathbb Z }}
+        \newcommand{\Q}{{\mathbb Q }}
+        \)
+    </div>
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark tu-color-bg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="img/tu_logo.svg.png" class="img-responsive bg-white" alt="TU Dortmund Logo" width="25%"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="impressum.html">Impressum</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="card text-white tu-color-bg my-5 text-center">
+            <div class="card-body">
+                <h1>Test</h1>
+            </div>
+        </div>
+
+        <!-- Content Row -->
+        <div class="row">
+            <div class="col-md-12 mb-5">
+                <div class="card h-100">
+                    <div class="card-header text-center">
+                        <audio controls>
+                            <source src="audio/dummy.mp3" type="audio/mpeg">
+                            Your browser does not support the audio tag.
+                        </audio>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-center">
+                            Geben Sie die richtige Formel an:
+                        </h5>
+                        <div class="card-text col-md-auto">
+                            <div class="text-left">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="dummy" id="dummy_loesung_1" value="loesung_1" checked>
+                                    <label class="form-check-label" for="dummy_loesung_1">
+                                        loesung_1
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="dummy" id="dummy_loesung_2" value="loesung_2">
+                                    <label class="form-check-label" for="dummy_loesung_2">
+                                        loesung_2
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer text-center">
+                        <input type="hidden" value="loesung_2" id="dummy_solution">
+                        <a class="btn btn-primary btn-lg text-white test-btn" id="dummy">Lösung</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 mb-5">
+                <div class="card h-100">
+                    <div class="card-header text-center">
+                        <audio controls>
+                            <source src="audio/dummy.mp3" type="audio/mpeg">
+                            Your browser does not support the audio tag.
+                        </audio>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-center">
+                            Geben Sie die richtige Formel an:
+                        </h5>
+                        <div class="card-text col-md-auto">
+                            <div class="text-left">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="dummy2" id="dummy2_loesung_1" value="loesung_1" checked>
+                                    <label class="form-check-label" for="dummy2_loesung_1">
+                                        loesung_1
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="dummy2" id="dummy2_loesung_2" value="loesung_2">
+                                    <label class="form-check-label" for="dummy2_loesung_2">
+                                        loesung_2
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer text-center">
+                        <input type="hidden" value="loesung_2" id="dummy2_solution">
+                        <a class="btn btn-primary btn-lg text-white test-btn" id="dummy2">Lösung</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        $('.test-btn').click(function() {
+            var checkedRadioButton = $("input[name='" + this.id + "']:checked");
+            var value = checkedRadioButton.val();
+            var solution = $('#dummy_solution').val();
+            var label = $("label[for='" +this.id + "_" + value + "']");
+
+            if (value == solution) {
+                label.addClass('bg-success');
+            } else {
+                label.addClass('bg-danger');
+                $("label[for='" +this.id + "_" + solution + "']").addClass('bg-success');
+            }
+        });
+
+    </script>
+</body>
+
+</html>

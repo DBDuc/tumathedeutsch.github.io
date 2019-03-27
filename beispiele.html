@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Small Business - Start Bootstrap Template</title>
+    <title>TU Dortmund X Sprachzentrum - Beispiele</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -24,53 +24,54 @@
 </head>
 
 <body>
-    \(
-    \newcommand{\eq}[1]{\begin{array}{rrl@{\quad}l}#1\end{array}}
-    \newcommand{\D}{\displaystyle}
-    \newcommand{\LR}{\Leftrightarrow}
-    \newcommand{\m}[1]{\begin{pmatrix}#1\end{pmatrix}}
-    \)
-    \(
-    \newcommand{\tb}[1]{{\color{blue}{#1}}}
-    \newcommand{\tr}[1]{{\color{red}{#1}}}
-    \newcommand{\tg}[1]{{\color{green}{#1}}}
-    \newcommand{\N}{{\mathbb N }}
-    \newcommand{\R}{{\mathbb R }}
-    \newcommand{\Z}{{\mathbb Z }}
-    \newcommand{\Q}{{\mathbb Q }}
-    \)
+    <div hidden="hidden">
+        \(
+        \newcommand{\eq}[1]{\begin{array}{rrl@{\quad}l}#1\end{array}}
+        \newcommand{\D}{\displaystyle}
+        \newcommand{\LR}{\Leftrightarrow}
+        \newcommand{\m}[1]{\begin{pmatrix}#1\end{pmatrix}}
+        \)
+        \(
+        \newcommand{\tb}[1]{{\color{blue}{#1}}}
+        \newcommand{\tr}[1]{{\color{red}{#1}}}
+        \newcommand{\tg}[1]{{\color{green}{#1}}}
+        \newcommand{\N}{{\mathbb N }}
+        \newcommand{\R}{{\mathbb R }}
+        \newcommand{\Z}{{\mathbb Z }}
+        \newcommand{\Q}{{\mathbb Q }}
+        \)
+    </div>
+
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark tu-color-bg fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">TU Dortmund - Sprachzentrum</a>
+            <a class="navbar-brand" href="index.html"><img src="img/tu_logo.svg.png" class="img-responsive bg-white" alt="TU Dortmund Logo" width="25%"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home
+                        <a class="nav-link" href="index.html">Home
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Impressum</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="impressum.html">Impressum</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
+
     <!-- Page Content -->
     <div class="container">
 
         <div class="card text-white tu-color-bg my-5 text-center">
             <div class="card-body">
-                <h1>Ordnungszeichen</h1>
+                <h1>Beispiele</h1>
             </div>
         </div>
 
@@ -78,18 +79,40 @@
         <div class="row">
             <div class="col-md-12 mb-5">
                 <div class="card h-100">
-                    <h5 class="card-header">
+                    <h5 class="card-header text-center">
                         $\{x\in\R\,|\,0 \lt x \lt 1\} = (0,1)$
                     </h5>
                     <div class="card-body">
                         <h5 class="card-title">
 
                         </h5>
-                        <p class="card-text">
+                        <p class="card-text text-center ">
                             Die Menge aller x in $\R$ mit der Eigenschaft, dass null kleiner x kleiner 1 ist, <span class="blue">ist gleich</span> dem offenen Intervall von null bis eins.
                         </p>
                     </div>
-                    <div class="card-footer">
+                    <div class="card-footer text-center bg-white">
+                        <audio controls>
+                            <source src="audio/dummy.mp3" type="audio/mpeg">
+                            Your browser does not support the audio tag.
+                        </audio>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 mb-5">
+                <div class="card h-100">
+                    <h5 class="card-header text-center">
+                        $\D\tr{\sum\limits_{k = 1}^n} k = \tb{\frac{n\,(n+1)}{2}}$
+                    </h5>
+                    <div class="card-body">
+                        <h5 class="card-title">
+
+                        </h5>
+                        <p class="card-text text-center ">
+                            Gaußsche Summenformel
+                        </p>
+                    </div>
+                    <div class="card-footer text-center bg-white">
                         <audio controls>
                             <source src="audio/dummy.mp3" type="audio/mpeg">
                             Your browser does not support the audio tag.
